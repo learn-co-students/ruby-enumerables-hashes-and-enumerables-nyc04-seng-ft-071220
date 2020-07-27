@@ -13,4 +13,4 @@ describe "#select_winner" do
 
     expect(select_winner(passengers)).to eq("Amanda Presley")
   end
-end
+end 

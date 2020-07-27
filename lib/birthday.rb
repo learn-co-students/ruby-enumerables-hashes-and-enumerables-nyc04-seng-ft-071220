@@ -5,5 +5,13 @@
 # }
 
 def happy_birthday(birthday_kids)
-  # add your code snippet here!
+birthday_kids.each do |kids_name, age|
+  puts "Happy Birthday #{kids_name}! You are now #{age} years old!"
 end
+end
+    
+  # add your code snippet here!
+  #  use .each on argument "birthday kids" set it to each b/c you need to print out name and "happy birthday"
+  # create two variables in the || kids name and their age 
+  # puts/print out "happy birthday" in interpolation form #{kids/_name} #{age} end ,end,end !
+
